@@ -1,0 +1,43 @@
+head{
+    background-color: black;
+}
+body{
+    background-color: black;
+    background-image: url(../src/stars-sky-night.jpg)
+}
+H1{
+    font-family: Verdana;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    color: beige;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+}
+.location{
+    margin: 30px;
+    background-color: rgb(109, 34, 179);
+    box-shadow: 0 0 42px rgb(255, 0, 200);
+    box-shadow: 0 0 82px rgb(255, 0, 255);
+    border-radius: 50px;
+    padding: 30px 30px;
+    font-family: Verdana;
+    text-align: center;
+}
+
+.short{
+text-align: center;
+}
+a{
+    text-decoration: none;
+    font-family: verdana;
+    color: rgb(86, 0, 94);
+    font-size: 17px;
+    font-weight: bold;
+}
+a:hover{
+    color: rgb(133, 49, 216);
+}
